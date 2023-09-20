@@ -3,16 +3,22 @@
 
 def getIntegers(myList):
     # myList : expected list or tuple
+    mylist = {}
     # iterate through myList and add all the integers to the new list
-    integers = []
+    Total = sum(mylist)
+    integers = [Total]
 
     return integers
 
 def getFactor(myList,number):
     # myList : expected list or tuple
+    mylist = {}
     # number : integer
+    number = int(number)
     # iterate through the list and add the number to the list if
+
     # it is a factor of the number
+    if isinstance()
     factors = []
 
     return factors
